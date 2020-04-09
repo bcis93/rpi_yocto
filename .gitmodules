@@ -7,3 +7,15 @@
 [submodule "meta-raspberrypi"]
 	path = meta-raspberrypi
 	url = git://git.yoctoproject.org/meta-raspberrypi
+[submodule "meta-rust"]
+	path = meta-rust
+	url = git://github.com/meta-rust/meta-rust.git
+[submodule "meta-virtualization"]
+	path = meta-virtualization
+	url = git://git.yoctoproject.org/meta-virtualization
+[submodule "openembedded-core"]
+	path = openembedded-core
+	url = git://github.com/openembedded/openembedded-core.git
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
