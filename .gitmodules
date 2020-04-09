@@ -1,0 +1,9 @@
+[submodule "meta-iotedge"]
+	path = meta-iotedge
+	url = https://github.com/Azure/meta-iotedge.git
+[submodule "poky"]
+	path = poky
+	url = git://git.yoctoproject.org/poky
+[submodule "meta-raspberrypi"]
+	path = meta-raspberrypi
+	url = git://git.yoctoproject.org/meta-raspberrypi
