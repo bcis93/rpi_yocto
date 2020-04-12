@@ -16,6 +16,7 @@ S = "${WORKDIR}/git"
 
 # TODO: Add the aesdsocket application and any other files you need to install
 # See http://git.yoctoproject.org/cgit.cgi/poky/plain/meta/conf/bitbake.conf?h=warrior for yocto path prefixes
+#FILES_${PN} += "${bindir}/azure_app"
 FILES_${PN} += "${bindir}/hello_world"
 
 # TODO: customize these as necessary for any libraries you need for your application
@@ -37,5 +38,6 @@ do_compile () {
 
 do_install () {
 	install -d ${D}${bindir}
+	#install -m 0755 ${S}/azure/azure_app ${D}${bindir}/
 	install -m 0755 ${S}/hello_world ${D}${bindir}/
 }
